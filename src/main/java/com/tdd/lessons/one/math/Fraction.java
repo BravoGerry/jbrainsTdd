@@ -6,7 +6,6 @@ public class Fraction
 
   public Fraction(int integerValue)
   {
-      
     this.integerValue = integerValue;
   }
 
@@ -15,6 +14,8 @@ public class Fraction
     return this;
   }
 
+
+  
   public int intValue()
   {
     return integerValue;
