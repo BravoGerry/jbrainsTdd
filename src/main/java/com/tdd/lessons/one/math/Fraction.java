@@ -6,7 +6,7 @@ public class Fraction
 
   public Fraction(int integerValue)
   {
-
+      
     this.integerValue = integerValue;
   }
 
