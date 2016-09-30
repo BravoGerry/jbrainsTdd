@@ -1,14 +1,15 @@
 package com.tdd.lessons.one.math;
 
-import org.junit.Assert;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+public class AddFractionsTest
+{
 
-public class AddFractionsTest {
-
-    @Test
-    public void zeroPlusZero() throws Exception {
+  @Test
+  public void zeroPlusZero() throws Exception
+  {
         Fraction sum = new Fraction(0).plus(new Fraction(0));
         assertEquals(0,sum.intValue());
     }
